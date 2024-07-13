@@ -1,0 +1,20 @@
+C:\S_J> mkdir git_challenge
+
+C:\S_J> cd C:\S_J\git_challenge
+
+C:\S_J\git_challenge> git add C:\S_J\git_challenge\hello_world.txt
+
+C:\S_J\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 036db2f] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\S_J\git_challenge> git add C:\S_J\git_challenge\hello_world.txt
+
+C:\S_J\git_challenge> git commit -m "日本語訳を追記"
+[main 68b7479] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+C:\S_J\git_challenge> git log --oneline
+68b7479 (HEAD -> main) 日本語訳を追記
+036db2f hello_world.txtを追加
